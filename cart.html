@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Ecommerce | contact</title>
+
+    <!-- ============================= FAVICON ============================= -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logoPersonal.png"
+      type="image/x-icon"
+    />
+
+    <!-- ============================= FONTAWESOME ============================= -->
+    <link
+      rel="stylesheet"
+      href=" https://pro.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
+    <!-- ============================= CSS ============================= -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+
+  <body>
+    <!-- ============================= MAIN ============================= -->
+    <!-- header -->
+    <section id="header">
+      <a href="index.html"> <img src="./assets/img/logo.png" alt="logo" /></a>
+
+      <div class="">
+        <ul id="navbar">
+          <a href="#" id="close"><i class="far fa-times-circle"></i></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" id="lg-bag" href="cart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <!-- hero -->
+    <section id="page-header" class="about-header">
+      <h2>#Cart</h2>
+      <p>Add your coupon code & SAVE upto 70% !</p>
+    </section>
+
+    <!-- cart -->
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>REMOVE</td>
+            <td>IMAGE</td>
+            <td>PRODUCT</td>
+            <td>PRICE</td>
+            <td>QUANTITY</td>
+            <td>SUBTOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="./assets/img/products/f1.jpg" alt="products" "></td>
+            <td>Cartoon Astronaut T-Shirts flower</td>
+            <td>$185.00</td>
+            <td>
+              <input type=" number" name="number" id="number" value="1" />
+            </td>
+            <td>$185.00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="./assets/img/products/f2.jpg" alt="products" "></td>
+            <td>Cartoon Astronaut T-Shirts fresh</td>
+            <td>$145.00</td>
+            <td>
+              <input type=" number" name="number" id="number" value="1" />
+            </td>
+            <td>$185.00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="./assets/img/products/f3.jpg" alt="products" "></td>
+            <td>Cartoon Astronaut T-Shirts cat</td>
+            <td>$175.00</td>
+            <td>
+              <input type=" number" name="number" id="number" value="1" />
+            </td>
+            <td>$185.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- cart add  -->
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input
+            type="text"
+            name="coupon"
+            id=""
+            placeholder="Enter your Coupon"
+          />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$ 355</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 355.00</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+      <!--Contact -->
+      <div class="col">
+        <img class="logo" src="./assets/img/logo.png" alt="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> 52424, Road Street 245, Morelia. Mich.</p>
+        <p><strong>Phone: </strong> 065465465, 5555454545, 555558798.</p>
+        <p><strong>Hours: </strong> 9:00 - 14:00 & 15:00 - 20:00, Mon - Sat.</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <!-- About -->
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information </a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condictions us</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <!-- My Account -->
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist </a>
+        <a href="#">Track My order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <!-- Install app -->
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Gooogle Play</p>
+        <div class="row">
+          <img src="./assets/img/pay/app.jpg" alt="app" />
+          <img src="./assets/img/pay/play.jpg" alt="app" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="./assets/img/pay/pay.png" alt="pay" />
+      </div>
+      <!-- copyright -->
+      <div class="copyright">
+        <p>C. 2022, Adrian Guzman - Ecommerce</p>
+      </div>
+    </footer>
+
+    <!-- ============================= SCRIPTS ============================= -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
